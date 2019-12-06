@@ -1,0 +1,39 @@
+{
+  "name": "red-swan-cocktails",
+  "version": "1.0.0",
+  "description": "api project with cocktail database api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Jean-Marc Möckel",
+  "license": "ISC",
+  "homepage": "https://jeanmarc5592.github.io/Cocktai-API-Project",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "gh-pages": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "multi-loader": "^0.1.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "fractional": "^1.0.0",
+    "uniqid": "^5.0.3"
+  }
+}

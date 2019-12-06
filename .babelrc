@@ -1,0 +1,14 @@
+// The last 5 versions of every browser targeted and babel recognizes automatically which code it has to transform to ES5 in order 
+// to run it into each specific browser
+{
+    "presets": [
+        ["@babel/preset-env",  {
+            "targets": {
+                "browsers": [
+                    "last 5 versions",
+                    "ie >= 8"
+                ]
+            }
+        }]
+    ]
+}
